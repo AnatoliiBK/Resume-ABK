@@ -61,7 +61,7 @@ export const App = () => {
       <h1 className="is-hidden">ANATOLII BAZAN - KOVAL</h1>
         <p className="is-hidden">FULL STACK DEVELOPER</p>
         <h2>SUMMARY</h2>
-        <p>Technique is my hobby. In order to get an understanding of the principles of mechanical
+        <p className="description">Technique is my hobby. In order to get an understanding of the principles of mechanical
            engineering, he studied at the university. Even then, I liked the design, which was 
            performed with the help of drawing tools. This also comes in handy for equipment repair work, 
            which I do now. What comes from your own efforts and is useful to someone else makes you needed. 
@@ -86,7 +86,7 @@ export const App = () => {
               <h3>mimiно (Restaurant and hotel complex)</h3>
             </a>
             <a href="https://github.com/Ritulina/parcel-project-template" className="project-link">GitHub</a>
-              <p>Site with active content to get acquainted with the amenities of the complex and to book places in the hotel and restaurant.<br />Role: Development of the section "Contacts".</p>
+              <p className="description">Site with active content to get acquainted with the amenities of the complex and to book places in the hotel and restaurant.<br />Role: Development of the section "Contacts".</p>
           </li>
           <li className="list-item">
             <a href="https://badyanch.github.io/BOOKSHELF/" className="project-link">
@@ -94,7 +94,7 @@ export const App = () => {
             </a>
             <a href="https://github.com/badyanch/BOOKSHELF" className="project-link">GitHub</a>
           
-              <p>A site with modern functionality and an intuitive interface for searching books and ordering from several resources.<br />Role: Development of a theme change.</p>
+              <p className="description">A site with modern functionality and an intuitive interface for searching books and ordering from several resources.<br />Role: Development of a theme change.</p>
         
           </li>
         </ul>
