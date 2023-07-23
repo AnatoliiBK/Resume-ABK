@@ -4,7 +4,7 @@ export const App = () => {
   return (
     <div className="doc">
       
-      <div className="sidebar">
+      <aside className="sidebar">
         <img src={plus} alt="Anatolii Bazan - Koval" className="img" />
         <h2 className="is-visible">ANATOLII BAZAN - KOVAL</h2>
         <p className="is-visible">FULL STACK DEVELOPER</p>
@@ -54,12 +54,15 @@ export const App = () => {
             <li className="list-item">Ukrainian - Native</li>
             <li className="list-item">Russian - Fluent</li>
         </ul>
-      </div>
+      </aside>
 
     
     <div className="main-content">
-      <h1 className="is-hidden">ANATOLII BAZAN - KOVAL</h1>
-        <p className="is-hidden">FULL STACK DEVELOPER</p>
+      <div className="is-hidden">
+      <h1>ANATOLII BAZAN - KOVAL</h1>
+        <p>FULL STACK DEVELOPER</p>
+      </div>
+      
         <h2>SUMMARY</h2>
         <p className="description">Technique is my hobby. In order to get an understanding of the principles of mechanical
            engineering, he studied at the university. Even then, I liked the design, which was 
