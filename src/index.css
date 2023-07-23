@@ -75,9 +75,10 @@ code {
   list-style: none;
 }
 
-/* .img {
-  width: 80%;
-} */
+.img {
+  width: 320px;
+  height: 379px;
+}
 
 .is-hidden {
   @media screen and (max-width: 800px) {
