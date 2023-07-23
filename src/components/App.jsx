@@ -4,7 +4,7 @@ export const App = () => {
   return (
     <div className="doc">
       
-      <aside className="sidebar">
+      <div className="sidebar">
         <img src={plus} alt="Anatolii Bazan - Koval" className="img" />
         <h2 className="is-visible">ANATOLII BAZAN - KOVAL</h2>
         <p className="is-visible">FULL STACK DEVELOPER</p>
@@ -54,7 +54,7 @@ export const App = () => {
             <li className="list-item">Ukrainian - Native</li>
             <li className="list-item">Russian - Fluent</li>
         </ul>
-        </aside>
+      </div>
 
     
     <div className="main-content">
