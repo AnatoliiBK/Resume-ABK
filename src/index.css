@@ -103,29 +103,20 @@ p.visible {
     display: none;
   }
 } */
-.main-content h1.is-hidden {
+.is-hidden {
   display: none;
 }
 
-.main-content p.hidden {
-  display: block;
-}
 
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
   
-  .sidebar h2.is-visible,
-  .sidebar p.visible {
+  .is-visible {
     display: none;
   }
 
   
-  .main-content h1.is-hidden {
-    display: block;
-  }
-
-  
-  .main-content p.hidden {
+  .is-hidden {
     display: block;
   }
 }
