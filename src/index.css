@@ -111,20 +111,20 @@ p.visible {
   display: block;
 }
 
-/* Стилі для елементів на екранах з шириною більше 800px */
+
 @media screen and (min-width: 801px) {
-  /* Сховати заголовок і опис у сайдбарі */
+  
   .sidebar h2.is-visible,
   .sidebar p.visible {
     display: none;
   }
 
-  /* Показати заголовок у контенті */
+  
   .main-content h1.is-hidden {
     display: block;
   }
 
-  /* Показати опис у контенті */
+  
   .main-content p.hidden {
     display: block;
   }
