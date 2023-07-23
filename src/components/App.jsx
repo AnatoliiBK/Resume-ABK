@@ -6,7 +6,7 @@ export const App = () => {
       
       <aside className="sidebar">
         <img src={plus} alt="Anatolii Bazan - Koval" className="img" style={{width: "320px", height: "379px"}} />
-        <h1 className="is-visible">ANATOLII BAZAN - KOVAL</h1>
+        <h2 className="is-visible">ANATOLII BAZAN - KOVAL</h2>
         <p className="is-visible">FULL STACK DEVELOPER</p>
         <h2>CONTACTS</h2>
           <ul className="list-zero">
