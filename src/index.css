@@ -80,25 +80,25 @@ code {
   height: 379px;
 }
 
-.is-hidden {
+h1.is-hidden {
   @media screen and (max-width: 800px) {
     display: none;
   }
 }
 
-.hidden {
+p.hidden {
   @media screen and (max-width: 800px) {
     display: none;
   }
 }
 
-.is-visible {
+h2.is-visible {
   @media screen and (min-width: 801px) {
     display: none;
   }
 }
 
-.visible {
+p.visible {
   @media screen and (min-width: 801px) {
     display: none;
   }
