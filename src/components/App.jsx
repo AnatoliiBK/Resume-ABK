@@ -112,7 +112,7 @@ export const App = () => {
           </li>
           <li className="list-item">
             <a href="https://tntu.edu.ua/?p=uk/main" className="education-link">
-              <h3>Ternopil Instrument Engineering Institute</h3>
+              <h3>Ternopil Instrument-Making Institute</h3>
             </a>
             
             <p>Engineer | 1988 - 1993</p>
