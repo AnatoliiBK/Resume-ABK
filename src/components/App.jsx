@@ -7,7 +7,7 @@ export const App = () => {
       <aside className="sidebar">
         <img src={plus} alt="Anatolii Bazan - Koval" className="img" />
         <h2 className="is-visible">ANATOLII BAZAN - KOVAL</h2>
-        <p className="is-visible">FULL STACK DEVELOPER</p>
+        <p className="visible">FULL STACK DEVELOPER</p>
         <h2>CONTACTS</h2>
           <ul className="list-zero">
             <li className="list-contacts list-item">
@@ -59,7 +59,7 @@ export const App = () => {
     
     <div className="main-content">
       <h1 className="is-hidden">ANATOLII BAZAN - KOVAL</h1>
-        <p className="is-hidden">FULL STACK DEVELOPER</p>
+        <p className="hidden">FULL STACK DEVELOPER</p>
         <h2>SUMMARY</h2>
         <p className="description">Technique is my hobby. In order to get an understanding of the principles of mechanical
            engineering, he studied at the university. Even then, I liked the design, which was 
