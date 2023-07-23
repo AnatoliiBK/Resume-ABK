@@ -64,8 +64,12 @@ code {
   padding: 20px;
 }
 
-.main-content_title {
+/* .main-content_title {
   
+} */
+
+.list-experience {
+  list-style: none;
 }
 
 .img {

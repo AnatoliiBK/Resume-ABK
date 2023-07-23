@@ -68,7 +68,7 @@ export const App = () => {
            Modernity has other ways of designing and implementing your own and someone's plans. Therefore, 
            the profession of Full Stack Developer is another way to realize yourself, including for someone's success.</p>
         <h2>WORK EXPERIENCE</h2>
-        <ul className="list">
+        <ul className="list list-experience">
           <li className="list-item">
             <h3>Car service | Mechanic</h3>
             <p>2011 - 2023</p>
