@@ -58,7 +58,7 @@ export const App = () => {
 
     
     <div className="main-content">
-      <h1 className="is-hidden">ANATOLII BAZAN - KOVAL</h1>
+      <h2 className="is-hidden">ANATOLII BAZAN - KOVAL</h2>
         <p className="is-hidden">FULL STACK DEVELOPER</p>
         <h2>SUMMARY</h2>
         <p className="description">Technique is my hobby. In order to get an understanding of the principles of mechanical
