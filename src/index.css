@@ -81,7 +81,10 @@ code {
 
 .is-hidden {
   @media screen and (max-width: 800px) {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }
 }
 
