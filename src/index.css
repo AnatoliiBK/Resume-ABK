@@ -80,34 +80,13 @@ code {
   height: 379px;
 }
 
-/* h1.is-hidden {
-  @media screen and (max-width: 800px) {
-    display: none;
-  }
-}
-
-p.hidden {
-  @media screen and (max-width: 800px) {
-    display: none;
-  }
-}
-
-h2.is-visible {
-  @media screen and (min-width: 801px) {
-    display: none;
-  }
-}
-
-p.visible {
-  @media screen and (min-width: 801px) {
-    display: none;
-  }
-} */
 .is-hidden {
   display: none;
 }
 
-
+.is-visible {
+  display: block;
+}
 
 @media screen and (min-width: 800px) {
   
@@ -165,3 +144,24 @@ p.visible {
   }
 
 }
+
+/* .list-effect {
+  transform: scale(1);
+  transition: transform 0.2s ease;
+} */
+
+.project-link {
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+
+.list-effect:hover {
+  list-style: none;
+  transform: scale(1.01);
+}
+
+/* .list-effect:hover {
+  transform: scale(1.02);
+  color: red; 
+  border-bottom: 2px solid blue;
+} */

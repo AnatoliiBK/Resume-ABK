@@ -11,16 +11,19 @@ export const App = () => {
         <h2>CONTACTS</h2>
           <ul className="list-zero">
             <li className="list-contacts list-item">
-              <a href="tel:+380681480342" className="contact-link">Phone</a>
+              <a href="tel:+380681480342" className="contact-link">+38 068 148 03 42</a>
             </li>
             <li className="list-contacts list-item">
-              <a href="mailto: beatrice.ccq@gmail.com" className="contact-link">Email</a>
+              <a href="mailto: beatrice.ccq@gmail.com" className="contact-link">beatrice.ccq@gmail.com</a>
             </li>
             <li className="list-contacts list-item">
               <a href="https://github.com/AnatoliiBK"className="contact-link">GitHub</a>
             </li>
             <li className="list-contacts list-item">
               <a href="https://www.linkedin.com/in/anatolii-bazan-koval-b61b00274/"className="contact-link">LinkedIn</a>
+            </li>
+            <li className="list-contacts list-item">
+              Ternopil, Ukraine
             </li>
           </ul>
         
@@ -80,7 +83,7 @@ export const App = () => {
 
         <h2>PROJECT EXPERIENCE</h2>
         <ul className="list">
-          <li className="list-item">
+          <li className="list-item list-effect">
           
             <a href="https://ritulina.github.io/parcel-project-template/" className="project-link">
               <h3>mimiно (Restaurant and hotel complex)</h3>
@@ -88,7 +91,7 @@ export const App = () => {
             <a href="https://github.com/Ritulina/parcel-project-template" className="project-link">GitHub</a>
               <p className="description">Site with active content to get acquainted with the amenities of the complex and to book places in the hotel and restaurant.<br />Role: Development of the section "Contacts".</p>
           </li>
-          <li className="list-item">
+          <li className="list-item list-effect">
             <a href="https://badyanch.github.io/BOOKSHELF/" className="project-link">
               <h3>Bookshelf</h3>
             </a>
@@ -97,20 +100,29 @@ export const App = () => {
               <p className="description">A site with modern functionality and an intuitive interface for searching books and ordering from several resources.<br />Role: Development of a theme change.</p>
         
           </li>
+          <li className="list-item list-effect">
+            <a href="https://anatoliibk.github.io/goit-react-hw-06-phonebook/" className="project-link">
+              <h3>Phonebook</h3>
+            </a>
+            <a href="https://github.com/AnatoliiBK/goit-react-hw-06-phonebook" className="project-link">GitHub</a>
+          
+              <p className="description">An application with a simple interface to add, save, and delete contacts.</p>
+        
+          </li>
         </ul>
         
 
         
         <h2>EDUCATION</h2>
         <ul className="list">
-          <li className="list-item">
+          <li className="list-item list-effect">
             <a href="https://goit.global/ua/" className="education-link">
               <h3>IT School GoIT</h3>
             </a>
             
             <p>Fullstack Developer | 2022 – 2023</p>
           </li>
-          <li className="list-item">
+          <li className="list-item list-effect">
             <a href="https://tntu.edu.ua/?p=uk/main" className="education-link">
               <h3>Ternopil Instrument-Making Institute</h3>
             </a>
