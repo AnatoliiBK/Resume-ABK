@@ -16,10 +16,18 @@ code {
 
 .doc {
   display: flex;
-  @media screen and (max-width: 800px) {
+  /* @media screen and (max-width: 800px) {
+    flex-direction: column;
+  } */
+}
+
+@media screen and (max-width: 800px) {
+  .doc {
     flex-direction: column;
   }
 }
+
+
 
 .sidebar {
   width: 40%;
