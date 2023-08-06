@@ -28,8 +28,17 @@ code {
   /* display: flex;
   flex-direction: column; */
   align-items: center;
-  @media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 262px) {
+  .sidebar {
+    width: 262px;
   }
 }
 
@@ -84,6 +93,18 @@ code {
 .img {
   width: 320px;
   height: 379px;
+}
+
+@media screen and (max-width: 800px) {
+  .img {
+     width: 280px;
+     height: 331.6px; 
+    } 
+ }
+
+ @media screen and (max-width: 262px) {
+  .img { max-width: 320px; aspect-ratio: 320 / 379; }
+  
 }
 
 .is-hidden {
