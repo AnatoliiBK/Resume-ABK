@@ -173,16 +173,16 @@ code {
   width: 760px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
   .description {
-    width: 500px;
+    width: 100%;
   }
 };
-@media screen and (max-width: 520px) {
+/* @media screen and (max-width: 520px) {
   .description {
-    width: 300px;
+    width: 280px;
   }
-}
+} */
 
 /* .list-effect {
   transform: scale(1);
