@@ -11,10 +11,10 @@ export const App = () => {
         <h2>CONTACTS</h2>
           <ul className="list-zero">
             <li className="list-contacts list-item">
-              <a href="tel:+380681480342" className="contact-link">+38 068 148 03 42</a>
+              <a href="tel:+380681480342" className="contact-link">Phone</a>
             </li>
             <li className="list-contacts list-item">
-              <a href="mailto: beatrice.ccq@gmail.com" className="contact-link">beatrice.ccq@gmail.com</a>
+              <a href="mailto: beatrice.ccq@gmail.com" className="contact-link">Email</a>
             </li>
             <li className="list-contacts list-item">
               <a href="https://github.com/AnatoliiBK"className="contact-link">GitHub</a>
